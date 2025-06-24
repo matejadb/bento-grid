@@ -1,0 +1,120 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+	-FONT SIZE SYSTEM (px):
+	18 / 32 / 40 / 62
+
+  -FONT WEIGHTS:
+   400
+  500
+
+  -LINE HEIGHTS:
+    
+
+  -LETTER SPACING:
+   
+
+--- 02 COLOURS
+    --purple-100: #dbd1fc
+	  --purple-500: #7551dc
+    
+	  --yellow-100: #f9eee2
+	  --yellow-500: #ffcc6a
+	  
+    --white: #fff
+	  --black: #121212		
+		 
+--- 06 BORDER-RADIUS (px)
+  
+
+--- 07 WHITESPACE
+  -SPACING SYSTEM (px):
+	8 / 16 / 24 / 32 / 40
+*/
+
+:root {
+	--purple-100: #dbd1fc;
+	--purple-500: #7551dc;
+
+	--yellow-100: #f9eee2;
+	--yellow-500: #ffcc6a;
+
+	--white: #fff;
+	--black: #121212;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #f6f5f6;
+}
+
+.text--preset-1 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 6.2rem;
+	line-height: 0.935;
+	letter-spacing: -3px;
+	font-weight: 500;
+}
+
+.text--preset-2 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 4rem;
+	line-height: 0.9;
+	letter-spacing: -2px;
+	font-weight: 500;
+}
+
+.text--preset-3 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 3.2rem;
+	line-height: 0.875;
+	letter-spacing: -2px;
+	font-weight: 500;
+}
+
+.text--preset-4 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.11;
+	font-weight: 400;
+}
+
+/*******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*******************************/
+
+.grid {
+	display: grid;
+	gap: 3.2rem;
+}
+
+.grid--1-col {
+	grid-template-columns: 1fr;
+}
+
+.grid--3-col-row {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.attribution {
+	font-size: 1.1rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
