@@ -121,11 +121,10 @@
 }
 
 .content-maintain img {
-	width: 100%;
 	position: absolute;
-	width: 20.8rem;
-	bottom: -50%;
-	transform: translateY(-45%);
+	max-width: 20.8rem;
+	bottom: 0;
+	transform: translateY(45%);
 }
 
 /* CONTENT AUDIENCE */
