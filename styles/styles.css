@@ -1,6 +1,5 @@
 .section-grid {
 	max-width: 120rem;
-	/* margin: 0 auto; */
 	padding: 0 3.2rem;
 	display: grid;
 	gap: 3.2rem;
@@ -122,8 +121,9 @@
 
 .content-maintain img {
 	position: absolute;
-	max-width: 20.8rem;
+	width: 80%;
 	bottom: 0;
+	align-self: center;
 	transform: translateY(45%);
 }
 
