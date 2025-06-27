@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [https://github.com/matejadb/bento-grid](https://github.com/matejadb/bento-grid)
+- Demo: [https://project-bento-grid.netlify.app/](https://project-bento-grid.netlify.app/)
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@matejadb](https://github.com/matejadb)
+- Frontend Mentor - [@matejadb](https://www.frontendmentor.io/profile/matejadb)
