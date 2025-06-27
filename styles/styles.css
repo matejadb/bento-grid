@@ -1,6 +1,6 @@
 .section-grid {
 	max-width: 120rem;
-	padding: 0 3.2rem;
+	margin: 5rem 5rem;
 	display: grid;
 	gap: 3.2rem;
 	grid-template-columns: 25fr 75fr;
